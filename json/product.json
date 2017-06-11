@@ -20,7 +20,7 @@
     "price" : 21.99
   },
   {
-    "productId": "book2",
+    "productId": "book3",
     "name" : "Harry Potter and the Chamber of Secrets",
     "author": "JK Rowling",
     "category": "Fiction",
@@ -30,7 +30,17 @@
     "price" : 21.99
   },
   {
-    "productId": "book2",
+    "productId": "book4",
+    "name" : "Harry Potter and the Chamber of Secrets",
+    "author": "JK Rowling",
+    "category": "Fiction",
+    "description": "But not everything is quiet at Hogwarts as Harry suspects someone is planning to steal the sorcerer's stone. On his eleventh birthday, Harry Potter discovers that he is no ordinary boy. Hagrid, a beetle-eyed giant, tells Harry that he is a wizard and has a place at Hogwarts School of Witchcraft and Wizardry.",
+    "popularity" : "normal",
+    "onsale": "no",
+    "price" : 21.99
+  },
+    {
+    "productId": "book5",
     "name" : "Harry Potter and the Chamber of Secrets",
     "author": "JK Rowling",
     "category": "Fiction",
@@ -40,7 +50,47 @@
     "price" : 21.99
   },
   {
-    "productId": "book2",
+    "productId": "book6",
+    "name" : "Harry Potter and the Chamber of Secrets",
+    "author": "JK Rowling",
+    "category": "Fiction",
+    "description": "But not everything is quiet at Hogwarts as Harry suspects someone is planning to steal the sorcerer's stone. On his eleventh birthday, Harry Potter discovers that he is no ordinary boy. Hagrid, a beetle-eyed giant, tells Harry that he is a wizard and has a place at Hogwarts School of Witchcraft and Wizardry.",
+    "popularity" : "normal",
+    "onsale": "no",
+    "price" : 21.99
+  },
+  {
+    "productId": "book7",
+    "name" : "Harry Potter and the Chamber of Secrets",
+    "author": "JK Rowling",
+    "category": "Fiction",
+    "description": "But not everything is quiet at Hogwarts as Harry suspects someone is planning to steal the sorcerer's stone. On his eleventh birthday, Harry Potter discovers that he is no ordinary boy. Hagrid, a beetle-eyed giant, tells Harry that he is a wizard and has a place at Hogwarts School of Witchcraft and Wizardry.",
+    "popularity" : "normal",
+    "onsale": "no",
+    "price" : 21.99
+  },
+  {
+    "productId": "book8",
+    "name" : "Harry Potter and the Chamber of Secrets",
+    "author": "JK Rowling",
+    "category": "Fiction",
+    "description": "But not everything is quiet at Hogwarts as Harry suspects someone is planning to steal the sorcerer's stone. On his eleventh birthday, Harry Potter discovers that he is no ordinary boy. Hagrid, a beetle-eyed giant, tells Harry that he is a wizard and has a place at Hogwarts School of Witchcraft and Wizardry.",
+    "popularity" : "normal",
+    "onsale": "no",
+    "price" : 21.99
+  }
+    {
+    "productId": "book9",
+    "name" : "Harry Potter and the Chamber of Secrets",
+    "author": "JK Rowling",
+    "category": "Fiction",
+    "description": "But not everything is quiet at Hogwarts as Harry suspects someone is planning to steal the sorcerer's stone. On his eleventh birthday, Harry Potter discovers that he is no ordinary boy. Hagrid, a beetle-eyed giant, tells Harry that he is a wizard and has a place at Hogwarts School of Witchcraft and Wizardry.",
+    "popularity" : "normal",
+    "onsale": "no",
+    "price" : 21.99
+  },
+  {
+    "productId": "book10",
     "name" : "Harry Potter and the Chamber of Secrets",
     "author": "JK Rowling",
     "category": "Fiction",
