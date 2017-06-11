@@ -1,0 +1,118 @@
+/*Navbar*/
+.navbar{
+  border: 0px;
+  margin-bottom: 0px;
+  background-color: rgb(241,237,234);
+}
+.navbar .nav > li > a {
+  color:  #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+.navbar .nav > li > a:hover {
+  color:  red;
+}
+
+.navbar .navbar-toggle {
+  border: 0px;
+}
+.navbar .navbar-toggle .icon-bar{
+  background-color: darkgrey;
+}
+.navbar-collapse{
+  border:0px;
+}
+
+.navbar-header{
+
+}
+.icon-bar {
+}
+
+/*Jumbotron*/
+.jumbotron{
+  margin-top: 0px;
+  background-color: white;
+  background: url('../jumbotron.jpg');
+  color: #666;
+  margin-bottom: 0px;
+  border-radius: 0 !important;
+}
+
+/*Footer*/
+footer{
+  text-align:left;
+  background-color: rgb(241,237,234);
+
+}
+
+footer ul{
+   list-style-type: none;
+
+}
+footer a{
+  color: black;
+
+}
+footer a:hover{
+  color: red;
+     text-decoration: none;
+}
+
+/*Panel*/
+.panel{
+  border: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin:0;
+}
+.panel > .panel-heading {
+  background-image: none;
+  background-color: rgb(241,237,234);
+  color: black;
+  border: 0px;
+  font-weight: bold;
+  font-size: 19px;
+  text-align: center;
+}
+
+.panel > .panel-body{
+  background-color: white;
+}
+
+/*Paddings*/
+.nopadding {
+  padding: 0 !important;
+}
+
+.padding{
+  padding: 15px;
+}
+
+.padding-top{
+  padding-top: 10px;
+}
+
+/*Carousel*/
+.carousel .item img {
+  max-height: 500px;
+  min-width: auto;
+}
+
+#myCarousel{
+  margin-top: 15px;
+}
+
+/*Image on the home page*/
+#promo{
+  margin-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*Transition*/
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+.shadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
