@@ -1,6 +1,6 @@
 [
   {
-    "productId": "bk1",
+    "productId": "book1",
     "name" : "Harry Potter and the sorcerers stone",
     "author": "JK Rowling",
     "category": "Fiction",
@@ -10,7 +10,7 @@
     "price" : 21.99
   },
   {
-    "productId": "bk2",
+    "productId": "book2",
     "name" : "Harry Potter and the Chamber of Secrets",
     "author": "JK Rowling",
     "category": "Fiction",
