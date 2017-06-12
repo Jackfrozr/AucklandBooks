@@ -210,8 +210,13 @@ footer a:hover{
   font-size: 16px;
 }
 #sale img{
-    min-height: 200px;
+  min-height: 200px;
   max-width: 260px;
   max-height: 260px;
   width: 100%;
+}
+.productColumn{
+  margin-bottom: 25px;
+  padding: 15px;
+  height: 650px;
 }

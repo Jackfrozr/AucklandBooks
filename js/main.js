@@ -58,12 +58,20 @@ function productInit(){
 }
 
 function loadProduct(productId,name,description,price,index){
+var descriptionTrimmed="";
+  if(description.length > 200){
+    descriptionTrimmed= description.substring(0,197);
+    descriptionTrimmed+="...";
+  }
+  else{
+    descriptionTrimmed=description;
+  }
   var product =
-  "<div class='productColumn text-center col-md-4'>"+
+  "<div class='productColumn text-center col-md-4 col-xs-4'>"+
     "<div class='thumbnail text-center'>"+
       "<img class='img-responsive'src='image/"+productId+".jpg' alt='"+ productId + "'/>"+
       "<h1>"+name+"</h1>"+
-      "<p>"+description+"</p>"+
+      "<p>"+descriptionTrimmed+"</p>"+
       "<p class='price'>$"+price+"</p>"+
       "<button class='button' onclick='addCart("+index+")'>"+"Add To Cart <span class='glyphicon glyphicon-shopping-cart'></span>"+"</button>"+
     "</div>"+
