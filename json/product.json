@@ -26,7 +26,7 @@
     "category": "Fiction",
     "description": "But not everything is quiet at Hogwarts as Harry suspects someone is planning to steal the sorcerer's stone. On his eleventh birthday, Harry Potter discovers that he is no ordinary boy. Hagrid, a beetle-eyed giant, tells Harry that he is a wizard and has a place at Hogwarts School of Witchcraft and Wizardry.",
     "popularity" : "normal",
-    "onsale": "no",
+    "onsale": "yes",
     "price" : 21.99
   },
   {
@@ -56,7 +56,7 @@
     "category": "Non Fiction",
     "description": "But not everything is quiet at Hogwarts as Harry suspects someone is planning to steal the sorcerer's stone. On his eleventh birthday, Harry Potter discovers that he is no ordinary boy. Hagrid, a beetle-eyed giant, tells Harry that he is a wizard and has a place at Hogwarts School of Witchcraft and Wizardry.",
     "popularity" : "normal",
-    "onsale": "no",
+    "onsale": "yes",
     "price" : 21.99
   },
   {
@@ -106,7 +106,7 @@
     "category": "Fiction",
     "description": "But not everything is quiet at Hogwarts as Harry suspects someone is planning to steal the sorcerer's stone. On his eleventh birthday, Harry Potter discovers that he is no ordinary boy. Hagrid, a beetle-eyed giant, tells Harry that he is a wizard and has a place at Hogwarts School of Witchcraft and Wizardry.",
     "popularity" : "normal",
-    "onsale": "no",
+    "onsale": "yes",
     "price" : 21.99
   },
   {
@@ -156,7 +156,7 @@
     "category": "Non Fiction",
     "description": "But not everything is quiet at Hogwarts as Harry suspects someone is planning to steal the sorcerer's stone. On his eleventh birthday, Harry Potter discovers that he is no ordinary boy. Hagrid, a beetle-eyed giant, tells Harry that he is a wizard and has a place at Hogwarts School of Witchcraft and Wizardry.",
     "popularity" : "normal",
-    "onsale": "no",
+    "onsale": "yes",
     "price" : 21.99
   },
   {
@@ -186,7 +186,7 @@
     "category": "Fiction",
     "description": "But not everything is quiet at Hogwarts as Harry suspects someone is planning to steal the sorcerer's stone. On his eleventh birthday, Harry Potter discovers that he is no ordinary boy. Hagrid, a beetle-eyed giant, tells Harry that he is a wizard and has a place at Hogwarts School of Witchcraft and Wizardry.",
     "popularity" : "high",
-    "onsale": "no",
+    "onsale": "yes",
     "price" : 21.99
   },
   {
