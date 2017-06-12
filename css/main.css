@@ -192,10 +192,15 @@ footer a:hover{
 
 /*Featured*/
 #featured .thumbnail{
-  height: 350px;
+  height: 380px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  background-clip: content-box, padding-box;
+  padding-right: 10px;
+  background-color: rgb(241,237,234);
 }
 #featured h1{
-  font-size: 16px;
+  font-size: 18px;
 }
 #featured img{
   min-height: 200px;
@@ -204,10 +209,15 @@ footer a:hover{
   width: 100%;
 }
 #sale .thumbnail{
-  height: 350px;
+  height: 380px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  background-clip: content-box, padding-box;
+  padding-right: 10px;
+  background-color: rgb(241,237,234);
 }
 #sale h1{
-  font-size: 16px;
+  font-size: 20px;
 }
 #sale img{
   min-height: 200px;
