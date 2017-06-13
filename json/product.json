@@ -85,14 +85,14 @@
     "author": "JK Rowling",
     "category": "Fiction",
     "description": "Sobriety brings the past memories. Quitting is the easy part. As your body and mind returns, The reasons come back to the start. With selections ranging from tales of despair and abuse to equally moving accounts of celebration and love, the author repeatedly affirms her faith in God and the human ability to persevere. Revealing and frank, With In is a portrait of the struggles and joys of life. About the Author Janine Mary Stefanucci-Hexter lives in New Jersey with her husband and is the mother of three. She has been writing since childhood and often carries paper with her to write down ideas. In addition, she is well ranked by the American Poolplayers Association and loves music, dancing, swimming, softball, and rollercoasters.",
-    "popularity" : "high",
+    "popularity" : "normal",
     "onsale": "no",
     "price" : 21.99
   },
   {
     "productId": "book10",
-    "name" : "With In",
-    "author": "JK Rowling",
+    "name" : "The Time Traveler's Wife",
+    "author": "Audrey Niffenegger",
     "category": "Fiction",
     "description": "The beloved, mega bestselling first novel from Audrey Niffenegger, a soaring celebration of the victory of love over time (Chicago Tribune). A MOST UNTRADITIONAL LOVE STORY, this is the celebrated tale of Henry DeTamble, a dashing, adventuresome librarian who inadvertently travels through time, and Clare Abshire, an artist whose life takes a natural sequential course. Henry and Clare's passionate affair endures across a sea of time and captures them in an impossibly romantic trap that tests the strength of fate and basks in the bonds of love.",
     "popularity" : "normal",
@@ -106,7 +106,7 @@
     "category": "Cooking",
     "description": "The unequivocal reference tome on the full spectrum of twentieth-century French cooking, interpreted and revised by master chef Paul Bocuse for the home cook. Celebrated chef Paul Bocuse is the authority on classic French cuisine. In this volume, he shares 500 simple, traditional French recipes. Aimed at the beginner but with enough breadth to entice the confident chef, these recipes can be readily prepared at home and emphasize the use of the freshest and simplest ingredients. The book is divided into twenty-two chapters, fourteen covering savory recipes and eight covering sweet recipes, with everything from soups to souffles, by way of terrines, fish, meat, and vegetables. Practical appendixes include average cooking times for different types of meat, conversion tables, and a glossary of key French culinary terms.",
     "popularity" : "normal",
-    "onsale": "no",
+    "onsale": "yes",
     "price" : 21.99
   },
   {
