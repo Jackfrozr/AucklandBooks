@@ -129,7 +129,7 @@ function filterCatergory(category){
       for(i=0;i<ourData.length;i++){
         if(ourData[i].category==category)
         {
-          loadProduct(ourData[i].productId,ourData[i].name,ourData[i].description,ourData[i].price);
+          loadProduct(ourData[i].productId,ourData[i].name,ourData[i].description,ourData[i].price,i);
           check++;
         }
       }
