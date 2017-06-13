@@ -1,6 +1,3 @@
-h1 {
-	font-family: 'Quicksand', sans-serif;
-}
 /*Navbar*/
 .navbar{
   border: 0px;
@@ -36,7 +33,7 @@ h1 {
 .jumbotron{
   margin-top: 0px;
   background-color: white;
-  background: url('../jumbotron.jpg');
+  background: url('../image//jumbotron.jpg');
   color: #666;
   margin-bottom: 0px;
   border-radius: 0 !important;
@@ -142,7 +139,7 @@ footer a:hover{
   max-height: 320px;
   width: 100%;
 }
-
+/*Product Page*/
 .thumbnail{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 26px 0 rgba(0, 0, 0, 0.19);
   border-radius: 0px;
@@ -172,6 +169,7 @@ footer a:hover{
 .button:active {
   background-color: green;
 }
+/*Cart*/
 .buttonAdd{
   color: black;
   background-color: lightgreen;
@@ -211,6 +209,7 @@ footer a:hover{
   max-height: 260px;
   width: 100%;
 }
+/*Sales*/
 #sale .thumbnail{
   height: 380px;
   padding-left: 0px;
@@ -232,4 +231,31 @@ footer a:hover{
   margin-bottom: 25px;
   padding: 15px;
   height: 650px;
+}
+
+
+/*Index Page, Cassy's Code*/
+h1 {
+	font-family: 'Quicksand', sans-serif;
+}
+
+ #welcome {
+	font-size:40px;
+	font-family: 'Quicksand', sans-serif;
+	padding:20px;
+	border:thick;
+	border-color:black;
+}
+
+#text {
+	font-size:21px;
+	font-family:open sans;
+	margin-left:10px;
+	line-height:150%;
+	color:#5E5E5E;
+	padding-right:70px
+}
+
+#promo {
+	background-color:white;
 }
