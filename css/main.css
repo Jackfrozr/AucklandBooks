@@ -259,3 +259,47 @@ h1 {
 #promo {
 	background-color:white;
 }
+
+/*About and membership page, sand's Code*/
+fieldset {
+    border: thin solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    padding-left: 40px;
+    background: #fbfbfb;
+
+}
+legend {
+   color: #678;
+}
+.form-control {
+    width: 95%;
+
+}
+label small {
+    color: #678 !important;
+}
+span.req {
+    color:maroon;
+    font-size: 112%;
+}
+/*map*/
+#map {
+ height: 400px;
+ width: 100%;
+}
+
+/*java span*/
+span.sanddanger{
+  color: red;
+
+}
+span.sandcorrect{
+  color: Green;
+
+}
+
+/*image in about*/
+.img-center {
+	margin: 0 auto;
+}

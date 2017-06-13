@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Membership - Auckland Book Store</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+
+
+<div class="container">
+<!--Navbar-->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="product.html">PRODUCT</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="membership.html">MEMBERSHIP</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Jumbotron-->
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>Auckland City Books</h1>
+      <p>The best place to buy a book</p>
+    </div>
+  </div>
+
+ <!-- Carousel from https://www.w3schools.com/bootstrap/bootstrap_carousel.asp-->
+
+
+  <!--form-->
+  <!--css using bootstrap from http://getbootstrap.com/components/  -->
+  <br>
+  <div class="container">
+	<div class="row">
+        <div class="col-md-6">
+            <form onsubmit="validateForm(this.value)" name="myForm"action="" method="post" id="fileForm" role="form">
+            <fieldset><legend class="text-center">Membership Registeration Form. <span class="req">
+              </span></legend>
+
+              <div class="form-group">
+                  <label for="firstname"><span class="req">* </span> First name: </label>
+                      <input class="form-control" type="text" name="firstname" id = "firstname"
+                      onchange="firstname_validate(this.value);" />
+                          <div class="status" id="f-status"></div>
+              </div>
+
+
+              <div class="form-group">
+                  <label for="lastname"><span class="req">* </span> Last name: </label>
+                      <input class="form-control" type="text" name="lastname" id = "lastname"
+                      onchange="lastname_validate(this.value);" />
+                          <div class="status" id="l-status"></div>
+              </div>
+
+
+              <div class="form-group">
+                  <label for="email"><span class="req">* </span> Email Address: </label>
+                      <input class="form-control"  name="email" id = "email"
+                      onchange="email_validate(this.value);" />
+                          <div class="status" id="e-status"></div>
+
+              <div class="form-group">
+                    <label for="firstname"><span class="req">* </span>Date of Birth: dd/mm/yyyy </label>
+                          <input class="form-control" type="text" name="dateOfbirth" id = "dateOfbirth"
+                              onchange="dateOfbirth_validate(this.value);" />
+                                    <div class="status" id="d-status"></div>
+            </div>
+
+
+            <div class="form-group">
+                  <label class="col-lg-3 control-label">*Gender</label>
+                      <div class="col-lg-5">
+                            <div class="radio">
+                                 <label>
+                                    <input type="radio" name="gender" value="male" /> Male
+                                 </label>
+                                           </div>
+                                           <div class="radio">
+                                               <label>
+                                                   <input type="radio" name="gender" value="female" /> Female
+                                               </label>
+                                           </div>
+                                           <div class="radio">
+                                               <label>
+                                                   <input type="radio" name="gender" value="other" /> Other
+                                               </label>
+                                           </div>
+                                       </div>
+                                   </div>
+
+
+
+              <div class="form-group">
+
+
+                                           <hr>
+                                           <br>
+                                           <br>
+                                           <br>
+                                           <br>
+                                           <br>
+
+              <input type="checkbox"  onchange="this.setCustomValidity(validity.valueMissing ? 'Please check an accept the Terms and Conditions' : '');" id="terms">
+              <label for="terms">I agree with the <a href="" title="You may read our terms and conditions by clicking on this link">terms and conditions</a> for Registration.</label><span class="req">* </span>
+                </div>
+
+            <script type="text/javascript">
+              document.getElementById("terms").setCustomValidity("Please check an accept the Terms and Conditions");
+            </script>
+
+
+            <div class="form-group">
+                <input class="btn btn-success" type="submit" name="submit_reg" value="Submit">
+            </div>
+
+
+
+            </fieldset>
+            </form><!-- ends register form -->
+
+
+        </div><!-- ends col-6 -->
+
+
+
+	</div>
+</div>
+
+
+<br>
+
+  <footer class="container-fluid text-left padding-top">
+    <div class="row">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="product.html">Product</a></li>
+      </ul>
+      <center><p>Auckland City Book, Copyright © 2017</p></center>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>

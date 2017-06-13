@@ -1,3 +1,8 @@
+//----------------------------------//
+//    Home & Product Page           //
+//----------------------------------//
+
+//Product Page Variables
 var productList=[];
 var cart=[];
 for (i=0;i<20;i++){
@@ -138,4 +143,118 @@ function filterCatergory(category){
       }
   };
   ourRequest.send();
+}
+
+
+//----------------------------//
+//  About & Membership page   //
+//----------------------------//
+
+// check all field empty or not
+function validateForm() {
+    var a = document.forms["myForm"]["email"].value;
+    var b = document.forms["myForm"]["firstname"].value;
+    var c = document.forms["myForm"]["lastname"].value;
+    var d = document.forms["myForm"]["dateOfbirth"].value;
+    var e = document.forms["myForm"]["gender"].value;
+    if (a == "" || b == ""|| c== ""|| d== ""|| e== "") {
+        alert("All filed must be filled or selected!!");
+        return false;
+    }
+
+}
+
+// cehck first name validation
+function firstname_validate(firstname)
+{
+var regFirstname = /^([a-zA-Z]{3,})$/;
+var fnamecolor = document.getElementById('firstname');
+
+
+     if(regFirstname.test(firstname) == false)
+    {
+    document.getElementById("f-status").innerHTML    = "<span class='sanddanger'>Error! first name must be alphabet and at least 5 characters</span>";
+    fnamecolor.style.backgroundColor = "#ff7755";
+
+    }
+    else
+    {
+    document.getElementById("f-status").innerHTML	= "<span class='sandcorrect'>Correct!</span>";
+    fnamecolor.style.borderColor = "Green";
+    fnamecolor.style.backgroundColor = "White";
+    }
+}
+
+
+// cehck last name validation
+function lastname_validate(lastname)
+{
+var regLastname = /^([a-zA-Z]{8,})$/;
+var lastnamecolor = document.getElementById('lastname');
+
+
+     if(regLastname.test(lastname) == false)
+    {
+    document.getElementById("l-status").innerHTML    = "<span class='sanddanger'>Error! Last name must be alphabet and at least 8 characters</span>";
+    lastnamecolor.style.backgroundColor = "#ff7755";
+
+    }
+    else
+    {
+    document.getElementById("l-status").innerHTML	= "<span class='sandcorrect'>Correct!</span>";
+    lastnamecolor.style.borderColor = "Green";
+    lastnamecolor.style.backgroundColor = "White";
+    }
+}
+
+
+
+// check email
+function email_validate(email)
+{
+var regMail = /^([_a-zA-Z0-9-]+)(\.[_a-zA-Z0-9-]+)*@([a-zA-Z0-9-]+\.)+([a-zA-Z]{2,3})$/;
+var emailcolor = document.getElementById('email');
+    if(regMail.test(email) == false)
+    {
+    document.getElementById("e-status").innerHTML    = "<span class='sanddanger'>Error! invalid email.</span>";
+    emailcolor.style.backgroundColor = "#ff7755";
+    }
+    else
+    {
+    document.getElementById("e-status").innerHTML	= "<span class='sandcorrect'>Correct!</span>";
+    emailcolor.style.borderColor = "Green";
+    emailcolor.style.backgroundColor = "White";
+    }
+}
+
+
+// validate date of birth
+function dateOfbirth_validate(dateOfbirth)
+{
+var regdateOfbirth = /^(\d{2})[-\/](\d{2})[-\/](\d{4})$/;
+var datecolor = document.getElementById('dateOfbirth');
+    if(regdateOfbirth.test(dateOfbirth) == false)
+    {
+    document.getElementById("d-status").innerHTML	= "<span class='sanddanger'>error incorrect date of birth format</span>";
+    datecolor.style.backgroundColor = "#ff7755";
+    }
+    else
+    {
+    document.getElementById("d-status").innerHTML	= "<span class='sandcorrect'>Correct!</span>";
+    datecolor.style.borderColor = "Green";
+    datecolor.style.backgroundColor = "White";
+    }
+}
+
+//map
+function initMap() {
+  var uluru = {lat: -36.878566, lng: 174.694580};
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: uluru
+  });
+  var marker = new google.maps.Marker({
+    position: uluru,
+    map: map
+  });
 }
